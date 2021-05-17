@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Arraymax{
+
+public static void main(String[] args) {
+    
+   
+    int []n= new int[]{4,5,6,3,8};
+    int max=n[0]; 
+    for(int i=1;i<n.length;i++){
+      if (max> n[i]){
+          max=n[0];
+      }
+      else{
+          max=n[i];
+      }
+     }
+     System.out.println("max is "+max);
+
+   }
+
+}
