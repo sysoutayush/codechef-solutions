@@ -5,10 +5,7 @@
     
      class Solution{
          
-     public:
-            
-     
-           bool isDivisible() {
+     public:    bool isDivisible() {
      
                 long a = (d0 + d1)%10;
      
